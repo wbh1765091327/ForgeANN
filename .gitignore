@@ -1,0 +1,10 @@
+ForgeANN/target/.rustc_info.json
+.rustc_info.json
+target/*
+bench/*
+perf.data*
+*.out
+.trae/*
+*.txt
+*.output
+.worktrees/

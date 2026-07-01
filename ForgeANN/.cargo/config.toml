@@ -1,0 +1,5 @@
+[build]
+rustflags = ["-C", "target-feature=+avx2", "-C", "target-feature=+avx512f", "-L", "/usr/lib/x86_64-linux-gnu", "-l", "lapacke", "-l", "lapack", "-l", "blas"]
+
+[target.'cfg(test)']
+rustflags = ["-C", "target-feature=+avx2", "-C", "target-feature=+avx512f", "-L", "/usr/lib/x86_64-linux-gnu", "-l", "lapacke", "-l", "lapack", "-l", "blas"]
